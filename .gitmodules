@@ -1,0 +1,10 @@
+[submodule "rooster-contracts"]
+	path = rooster-contracts
+	url = git@github.com:RoosterDao/rooster-contracts.git
+	branch = swanky-node
+[submodule "swanky-node"]
+	path = swanky-node
+	url = git@github.com:AstarNetwork/swanky-node.git
+[submodule "contracts-ui-with-nft-viewer"]
+	path = contracts-ui-with-nft-viewer
+	url = git@github.com:vujicP/contracts-ui-with-nft-viewer.git
