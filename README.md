@@ -68,7 +68,7 @@ You can verify the status of your node using [polkadot.js exlorer](https://polka
      - governor.wasm (the contract's code)
      - metadata.json (the contract's metadata)
      
- After succesful completion the WASM contract is generated. You can use the [polkadot.js exlorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer) to deploy the contract manually and interact with it.
+ After succesful completion the WASM contract is generated. You can use the [polkadot.js exlorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer) to deploy the contract manually and interact with it as [shown here](Contract manual deploy.md)
 
 ### Rooster DAO UI
 
