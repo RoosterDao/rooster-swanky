@@ -45,8 +45,30 @@ To run the freshly build node in development mode you can issue the following:
 
 You can verify the status of your node using [polkadot.js exlorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer)
 
-
 ### Rooster Contracts
+
+    $ cd rooster-contracts/
+    $ cd contracts/governor/
+    $ cargo +nightly contract build
+    ...
+    Compiling governor v0.0.1 (/tmp/cargo-contract_ebdc4J)
+    Compiling metadata-gen v0.1.0 (/tmp/cargo-contract_ebdc4J/.ink/metadata_gen)
+    Finished release [optimized] target(s) in 38.05s
+    Running `target/ink/release/metadata-gen ''`
+    [5/5] Generating bundle
+    
+    Original wasm size: 116.0K, Optimized: 63.2K
+    
+    The contract was built in DEBUG mode.
+
+    Your contract artifacts are ready. You can find them in:
+    /tmp/rooster-swanky/rooster-contracts/contracts/governor/target/ink
+
+     - governor.contract (code + metadata)
+     - governor.wasm (the contract's code)
+     - metadata.json (the contract's metadata)
+     
+ After succesful completion the WASM contract is generated. You can use the [polkadot.js exlorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer) to deploy the contract manually and interact with it.
 
 ### Rooster DAO UI
 
