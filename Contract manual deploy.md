@@ -4,11 +4,11 @@ To deploy the contract manually, open the Developers⇾Contract section from the
 
 ![Contracts](images/polkadot-dev-contract.png)
 
-Click on 'Upload & deploy code' and select the *./rooster-contracts/contracts/governor/target/ink/governor.contract* you created while compiling the contract:
+Click on 'Upload & deploy code' and select the *./rooster-contracts/contracts/governor/target/ink/governor.contract* that was created by compiling the contract.
 
 ![Deploy](images/polkadot-deploy1.png)
 
-Click on *Next*. In the next screen, a value for the arguments for the constructor can be specified. When you intend to use the Rooster DAO UI, these values can be left at default values, as the UI will create a new instantiation of the contract. If you want to test the contract manually, you can provide useful values here (Note that the unit for Timestamp values is second). The parameter named value specifies how many tokens are transferred from the caller to the contract, as the contracts needs resources (e.g. for minting) this cannot be left zero (or a balance needs to be transferred after instantiation).
+Click on *Next*. Here you can provide values for the constructor arguments. When you intend to use the Rooster DAO UI, these values can be left at default values, as the UI will create a new instantiation of the contract. If you want to test the contract manually, you can provide useful values here (Note that the unit for Timestamp values is second). The parameter named value specifies how many tokens are transferred from the caller to the contract, as the contracts needs resources (e.g. for minting) this cannot be left zero (or you should transfer a balance needs after instantiation of the contract).
 
 ![Deploy](images/polkadot-deploy2.png)
 
