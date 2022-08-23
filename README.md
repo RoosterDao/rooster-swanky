@@ -7,9 +7,9 @@ The setup of this project depends on 4 other projects, all bundled in this compo
 * [Swanky-node](https://github.com/AstarNetwork/swanky-node)
 * [Rooster contracts](https://github.com/RoosterDao/rooster-contracts) *swank-node* branch
 * [Rooster DAO UI](https://github.com/RoosterDao/rooster-dao-ui)
-* [Rooster NFT viewer](git@github.com:RoosterDao/contracts-ui-with-nft-viewer.git)
+* [Rooster NFT viewer](https://github.com/RoosterDao/contracts-ui-with-nft-viewer)
 
-You can install all these projects following the instructions from different repositories, but using this composite repository will allow you to install tested versions of all of the above.
+You can install all these projects following the instructions from different repositories, but using this composite repository will allow you to install tested compatible versions of the above.
 
 ## Setting up the repository
 
@@ -43,7 +43,7 @@ To run the fresh build node in development mode, you can issue the following:
     2022-08-22 15:52:19 📋 Chain specification: Development    
     2022-08-22 15:52:19 🏷  Node name: grumpy-question-0526    
 
-You can verify the status of your node using [polkadot.js exlorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer)
+You can verify the status of your node using the [polkadot.js explorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer)
 
 ### Rooster Contracts
 
@@ -70,7 +70,7 @@ You can verify the status of your node using [polkadot.js exlorer](https://polka
 
  After successful completion the WASM contract is generated.
 
- Please use the [polkadot.js exlorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer) to [deploy the contract manually,](./Contract%20manual%20deploy.md) as this is needed in the following step.
+ Please use the [polkadot.js explorer](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer) to [deploy the contract manually,](./Contract%20manual%20deploy.md) as this is needed in the following step.
 
 ### Rooster DAO UI
 
