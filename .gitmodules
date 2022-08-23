@@ -5,10 +5,10 @@
 [submodule "swanky-node"]
 	path = swanky-node
 	url = git@github.com:AstarNetwork/swanky-node.git
-[submodule "contracts-ui-with-nft-viewer"]
-	path = contracts-ui-with-nft-viewer
-	url = git@github.com:vujicP/contracts-ui-with-nft-viewer.git
 [submodule "rooster-dao-ui"]
 	path = rooster-dao-ui
 	url = git@github.com:RoosterDao/rooster-dao-ui.git
 	branch = rooster-dao-ui-prototype
+[submodule "contracts-ui-with-nft-viewer"]
+	path = contracts-ui-with-nft-viewer
+	url = git@github.com:RoosterDao/contracts-ui-with-nft-viewer.git
