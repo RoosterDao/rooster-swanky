@@ -2,12 +2,16 @@
 
 ## Introduction
 
+This is the RoosterDao submission for the [Polkadot Hackathon North America edition 2022](https://polkadot-na.devpost.com/). It has been adapted for usage with Swanky node. More information on Rooster Dao [can be found here.](https://devpost.com/software/rooster-dao)
+
+![swanky-arch](images/swanky-arch.png)
+
 The setup of this project depends on 4 other projects, all bundled in this composed project:
 
 * [Swanky-node](https://github.com/AstarNetwork/swanky-node)
-* [Rooster contracts](https://github.com/RoosterDao/rooster-contracts) *swank-node* branch
+* [Rooster DAO contracts](https://github.com/RoosterDao/rooster-contracts) *swank-node* branch
 * [Rooster DAO UI](https://github.com/RoosterDao/rooster-dao-ui)
-* [Rooster NFT viewer](https://github.com/RoosterDao/contracts-ui-with-nft-viewer)
+* [Contract UI with NFT viewer](https://github.com/RoosterDao/contracts-ui-with-nft-viewer)
 
 You can install all these projects following the instructions from different repositories, but using this composite repository will allow you to install tested compatible versions of the above.
 
